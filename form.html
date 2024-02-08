@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <form action="httpbin" method="post" >
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" placeholder="Mwangi.." name="firstName">
+
+
+                <label for="lastName">LAST NAME</label>
+                <input type="text" id="lastName" placeholder="Githinji" name="lastName">
+                <button type="submit">submit</button>
+            </form>
+        </fieldset>
+        
+    </section>
+    <section>
+        <textarea name="comment" id="comment" cols="30" rows="10">This is what...</textarea>
+        <button type="submit">submit</button>
+    </section>
+    <section>
+        <select name="cars" id="cars">
+            <option value="benz">Mercedes Benz</option>
+            <option value="tesla">Tesla</option>
+            <option value="volvo">Volvo</option>
+            <option value="range" selected>Range Rover</option>
+        </select>
+        <select name="cloths" id="clot">
+            <optgroup>
+                <option value="jack">Jacket</option>
+                <option value="t-shirt">T-shirt</option>
+                <option value="truo">Trousers</option>
+            </optgroup>
+            <optgroup label="footwear">
+                <option value="snek">Sneaker</option>
+                <option value="j4">Air Jordan</option>
+                <option value="delt">Delta</option>
+            </optgroup>
+        </select>
+    </section>
+    <section>
+        <h1>Ticket Type</h1>
+<div>
+  <input type="radio" id="child" name="ticket_type" value="child">
+  <label for="child">Child</label>
+</div>
+
+<div>
+  <input type="radio" id="adult" name="ticket_type" value="adult">
+  <label for="adult">Adult</label>
+</div>
+
+<div>
+  <input type="radio" id="senior" name="ticket_type" value="senior">
+  <label for="senior">Senior</label>
+</div>
+    </section>
+</body>
+</html>
